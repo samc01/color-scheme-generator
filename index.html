@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300;400;700&family=Inter:wght@300;400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+            <input type="color" id="input-color">
+            <select id="select-options">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="btn">Get color scheme</button>
+        </div>
+        
+        <div class="content">
+            <div class="color-container">
+                <div class="color" id="color1"></div>
+                <p class="hex" id="hex1">hex</p>
+            </div>
+            <div class="color-container">
+                <div class="color" id="color2"></div>
+                <p class="hex" id="hex2">hex</p>
+            </div>
+            <div class="color-container">
+                <div class="color" id="color3"></div>
+                <p class="hex" id="hex3">hex</p>
+            </div>
+            <div class="color-container">
+                <div class="color" id="color4"></div>
+                <p class="hex" id="hex4">hex</p>
+            </div>
+            <div class="color-container">
+                <div class="color" id="color5"></div>
+                <p class="hex" id="hex5">hex</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
